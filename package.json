@@ -1,7 +1,7 @@
 {
-  "name": "empty-bootstrap-project-gulp",
-  "version": "0.0.1",
-  "description": "An empty new Bootstrap project. Powered by Panini, Sass and Gulp.",
+  "name": "port-pan",
+  "version": "0.0.2",
+  "description": "",
   "main": "Gruntfile.js",
   "devDependencies": {
     "autoprefixer": "^6.3.6",
@@ -28,11 +28,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bassjobsen/empty-bootstrap-project-gulp.git"
+    "url": "https://github.com/"
   },
   "bugs": {
-    "url": "https://github.com/bassjobsen/empty-bootstrap-project-gulp/issues",
-    "email": "bass@w3masters.nl"
+    "url": "https://github.com/"
   },
   "author": "Bass Jobsen <bass@w3masters.nl> (http://bassjobsen.weblogs.fm)",
   "license": "MIT",

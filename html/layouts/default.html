@@ -1,18 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US" dir="ltr">
   <head>
-    <!-- Required meta tags always come first -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title> Bootstrap 4 project :: {{title}}</title>
+    <title>{{title}}</title>
     
-    <!--Bootstrap CSS -->
-      <link rel="stylesheet" href="{{root}}css/app.css">
+    <!-- Default stylesheets-->
+    <link href="{{root}}/assets/lib/bootstrap/dist/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <!-- Template specific stylesheets-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link href="{{root}}/assets/lib/animate.css/animate.css" type="text/css" rel="stylesheet">
+    <link href="{{root}}/assets/lib/components-font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link href="{{root}}/assets/lib/et-line-font/et-line-font.css" type="text/css" rel="stylesheet">
+    <link href="{{root}}/assets/lib/flexslider/flexslider.css" type="text/css" rel="stylesheet">
+    <link href="{{root}}/assets/lib/magnific-popup/dist/magnific-popup.css" type="text/css" rel="stylesheet">
+    <link href="{{root}}/assets/lib/simple-text-rotator/simpletextrotator.css" type="text/css" rel="stylesheet">
+    <!-- Main stylesheet and color file-->
+    <link href="{{root}}/assets/css/app.css" type="text/css" rel="stylesheet">
   </head>
   <body>
+    <main>
+    <div class="page-loader">
+      <div class="loader">Crafing your experience...</div>
+    </div>
+    {{> nav}}
     {{> body}}
-    {{> footerjavascripts}}
+    {{> footer}}
+    <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
+    </main>
+    {{> javascripts}}
   </body>  
 </html>
