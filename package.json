@@ -28,12 +28,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/"
+    "url": "https://github.com/lbxo/My_Portfolio.git"
   },
   "bugs": {
-    "url": "https://github.com/"
+    "url": "https://github.com/My_Portfolio.git#issues"
   },
-  "author": "Bass Jobsen <bass@w3masters.nl> (http://bassjobsen.weblogs.fm)",
+  "author": "Lucas Henderson",
   "license": "MIT",
-  "private": true
 }
